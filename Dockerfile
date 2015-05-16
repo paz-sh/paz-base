@@ -1,8 +1,5 @@
+FROM gliderlabs/alpine:3.1
+
 MAINTAINER Tom Gallacher <me@tomg.co>
 
-FROM library/alpine
-
-RUN apk update
-RUN apk add nodejs
-RUN apk add python
-RUN apk add make g++
+RUN apk-install nodejs python make g++
