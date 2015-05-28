@@ -1,5 +1,5 @@
 FROM gliderlabs/alpine:3.1
-MAINTAINER Tom Gallacher <me@tomg.co>
+MAINTAINER Tom Martin <me@tomg.co>
 
 RUN \
   apk --update add nodejs python make g++ \
